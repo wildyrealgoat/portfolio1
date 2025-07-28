@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="style.css" />
+  <canvas id="space-bg"></canvas>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">ИЛЬЯ</div>
+    <nav class="nav">
+      <a href="#home">Главная</a>
+      <a href="#services">Сервисы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <button class="btn-primary" id="contactBtn">Связаться</button>
+  </header>
+
+  <section class="hero fade" id="home">
+    <div class="hero-text">
+      <h1 class="animated-title">Привет!<br>Я <span>Шарапутин Илья</span></h1>
+      <p>Веб-разработчик и музыкант</p>
+    </div>
+    <div class="hero-img">
+      <img src="my-photo.jpg" alt="Мое фото" />
+    </div>
+  </section>
+
+  <section class="services fade" id="services">
+    <h2 class="animated-title">Что я делаю</h2>
+    <div class="cards">
+      <div class="card fade hover-box"><h3>Веб-сайты</h3><p>Создаю современные и адаптивные сайты.</p></div>
+      <div class="card fade hover-box"><h3>Песни</h3><p>Записываю собственные песни</p></div>
+      <div class="card fade hover-box"><h3>Трек под ключ</h3><p>Напишу тебе текст, запишу и сведу твой трек</p></div>
+    </div>
+  </section>
+
+  <section class="about-me fade hover-box">
+    <h2 class="animated-title">Обо мне</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Привет! Меня зовут Илья, я веб-разработчик и музыкант. Люблю создавать
+          качественный контент и помогать клиентам реализовывать их идеи.</p>
+      </div>
+      <div class="about-photo">
+        <img src="my-photo.jpg" alt="Мое фото" />
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio-row fade">
+    <section class="my-sites hover-box">
+      <h2 class="animated-title">Мои сайты</h2>
+      <div class="sites-list">
+        <a href="https://wildyrealgoat.github.io/weather-site/" target="_blank" class="site-item hover-box">
+          <img src="site-photo.jpg" alt="Мой сайт" />
+          <p>Перейти на мой сайт</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="my-songs hover-box">
+      <h2 class="animated-title">Мои песни</h2>
+      <div class="songs-list">
+        <a href="https://www.youtube.com/watch?v=oFyVJrQY1hA&list=RDoFyVJrQY1hA&start_radio=1" target="_blank" class="song-item hover-box">
+          <img src="song-cover1.jpg" alt="Песня 1" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=7VSyydn5NYU&list=RD7VSyydn5NYU&start_radio=1&pp=ygULY29uc2lzdGVudCCgBwE%3D" target="_blank" class="song-item hover-box">
+          <img src="song-cover2.jpg" alt="Песня 2" />
+        </a>
+      </div>
+      <p class="tracks-description"></p>
+      <div style="text-align:center; margin-top: 15px;">
+        <a href="songs.html" class="btn-primary">Смотреть больше</a>
+      </div>      
+    </section>
+
+    <section class="tracks-key hover-box">
+      <h2 class="animated-title">Треки под ключ</h2>
+      <div class="songs-list">
+        <a href="https://www.youtube.com/watch?v=_YzD9KW82sk&list=RD_YzD9KW82sk&start_radio=1&pp=ygUNZHJpcCB0b28gaGFyZKAHAQ%3D%3D" target="_blank" class="song-item hover-box">
+          <img src="track-coverA.jpg" alt="Трек A" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=KyCTZ8c-trc&list=RDKyCTZ8c-trc&start_radio=1&pp=ygUIaGFsZnRpbWWgBwHSBwkJxwkBhyohjO8%3D" target="_blank" class="song-item hover-box">
+          <img src="track-coverB.jpg" alt="Трек B" />
+        </a>
+      </div>
+      <p class="tracks-description"></p>
+      <div style="text-align:center; margin-top: 15px;">
+        <a href="songs.html" class="btn-primary">Смотреть больше</a>
+      </div>      
+    </section>
+  </section>
+
+  <section id="contacts" class="contacts-section fade hover-box">
+    <h2 class="animated-title">Контакты</h2>
+    <p style="text-align:center;">Свяжитесь со мной: ilyasharaputin@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>Шарапутин Илья</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
